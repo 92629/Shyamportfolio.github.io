@@ -1,0 +1,132 @@
+/* Common Styles */
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    flex: 1 0 auto;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for About Page */
+  
+  .about-section {
+    background-color: #d3f5d2;
+    padding: 50px;
+  }
+  
+  /* Styles for Skills Page */
+  
+  .skills-section {
+    background-color: #d3f5d2;
+    padding: 20px;
+  }
+  
+  .skills-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for Projects Page */
+  
+  .projects-section {
+    background-color: #f7f0ea;
+    padding: 20px;
+  }
+  
+  /* Styles for Certifications Page */
+  
+  .certifications-section {
+    background-color: #d3f5d2;
+    padding: 20px;
+  }
+  
+  .certifications-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .certifications-section {
+    background-color: #d3f5d2;
+    padding: 90px;
+    
+  }
+  
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .certifications-list li {
+    margin-bottom: 10px;
+  }
+  
+  .certifications-list li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .certifications-list li a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+  }
+  
+  
+  /* Styles for Resume Page */
+  
+  .resume-section {
+    background-color: #f8f6f0;
+    padding: 20px;
+  }
+  
+  .resume-section a {
+    color: #3366cc;
+  }
+  
+  /* Styles for Contact Page */
+  
+  .contact-section {
+    background-color: #d3f5d2;
+    padding: 90px;
+    text-align: center;
+  }
+  
+  .contact-section a {
+    color: #3366cc;
+  }
+  
